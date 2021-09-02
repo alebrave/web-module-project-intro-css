@@ -9,7 +9,8 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 	font-size: 100%;
 	outline: 0;
 	padding: 0;
-	margin: 0;]
+	margin: 0;
+    border:1px solid black;
 	}
 /* remember to define focus styles! */
 :focus {
@@ -48,10 +49,10 @@ blockquote, q {
         font-size: 1.6rem;
         line-height: 1.5;
         color: #4f4f4f;
-        font-size: 'Roboto Mono', monospace;
+        font-family: 'Roboto Mono', monospace;
     }
     h1{
-        font-size: 'Roboto Mono', monospace;
+        font-family: 'Chelsea Market', cursive;
     }
     a{
         font-size: 'Roboto Mono', monospace;
@@ -90,6 +91,10 @@ blockquote, q {
     }
 
     /* tittle section styles */
+    .titles{
+        text-align: center;
+        position: relative;
+    }
 
     .left, .right{
         display:inline-block;
@@ -108,4 +113,11 @@ blockquote, q {
     .right div{
         position:absolute;
         top:40%;
+    }
+    .bottom-image img{
+        display: inline-block;
+        background-position: 100%;
+    }
+    footer{
+        background-color: coral;
     }
